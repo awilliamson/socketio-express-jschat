@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Radon's Chat </title>
+<link href="stylesheets/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="stylesheets/chat.css" rel="stylesheet" type="text/css">
+<script src="/socket.io/socket.io.js"></script>
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.2.min.js"></script>
+<script src="http://ajax.cdnjs.com/ajax/libs/underscore.js/1.1.6/underscore-min.js"></script>
+<script src="http://ajax.cdnjs.com/ajax/libs/backbone.js/0.3.3/backbone-min.js"></script>
+
+
+</head>
+
+<body>
+
+<script src="javascripts/index.js"></script>
+
+<div class="container" style="padding-top: 50px;">
+
+    <form class="form-horizontal" id="chatForm">
+
+    <div class="well">
+        <h1>Radon's Chat</h1><br/>
+        
+        <div class="well" id="msgarea" style="overflow-y: auto; word-wrap: break-word;  background-color: #ffffff; border-color: rgba(82, 168, 236, 0.8); height: 400px;"></div>
+
+    <fieldset>
+    <div class="control-group">
+        <label class="control-label" for="message" style="width: 10%; text-align: center;">Message: </label>
+
+        <div class="controls" style="margin: auto; width: 80%;">
+        <input type="text" id="message" style="width: 100%;" placeholder="Enter your message...">
+        </div>
+
+    </div>
+    </fieldset>
+
+    </div>
+    </form>
+
+</div>
+
+</body>
+
+</html>
