@@ -23,7 +23,7 @@ When all the above is done, `cake watch` to watch coffeescript files, and recomp
 
 ## Background
 
-I'm a 17 year old budding computer scientist, i'm relatively new to javascript and web development, let alone MVC and prototypes. This was my first attempt at creating such an application (interacting without using canvas) and my aim was to create a chat server which would use node, and would be fairly lightweight, and of course use websockets.
+I'm a 17 year old budding computer scientist, I'm relatively new to javascript and web development, let alone MVC and prototypes. This was my first attempt at creating such an application (interacting without using canvas) and my aim was to create a chat server which would use node, and would be fairly lightweight, and of course use websockets.
 
 I am by no means an expert this took me around a week of on/off work, considering major reworks were done, and entire library changes (from sockJS to socketIO), any feedback is welcome.
 
